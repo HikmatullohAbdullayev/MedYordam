@@ -34,7 +34,7 @@ function Quetions() {
             opeFilter ? " block" : "hidden"
           }  z-10`}
         >
-          <Filter />
+          <Filter burgerFilter={burgerFilter} />
         </div>
         <div className="top  py-[20px] flex justify-between items-center table1005:flex-col">
           <h3 className="title text-[50px] max-w-[700px]  font-medium px-[25px] desktop:text-[34px] table1080:text-[24px] ">

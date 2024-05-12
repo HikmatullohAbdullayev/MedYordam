@@ -2,14 +2,14 @@ import SearchIcon from "../assets/icon/SearchIcon";
 import ClearIcon from "../assets/icon/ClearIcon";
 import filters from "../data/filter";
 
-function Filter() {
+function Filter({burgerFilter}) {
   return (
     <div className=" max-w-[335px] py-[30px] px-[20px] bg-white grid gap-[24px]">
       <div className="flex justify-between items-center">
         <p className="text-[20px]">
           Фильтрация <br /> по направлениям
         </p>
-        <button className="text-red-600 text-[14px] flex items-center gap-[5px] cursor-pointer">
+        <button className="text-red-600 text-[14px] flex items-center gap-[5px] cursor-pointer" onClick={()=> burgerFilter()}>
           {" "}
           <span>
             <ClearIcon />
