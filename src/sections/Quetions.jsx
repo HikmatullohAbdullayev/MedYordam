@@ -6,6 +6,7 @@ import FilterIcon from "../assets/icon/FilterIcon";
 import Quetion from "../components/Quetion";
 import qustionsData from "../data/quetions.js";
 import Paggination from "../components/Paggination.jsx";
+import Sort from "../components/Sort.jsx";
 
 function Quetions() {
   const [opeFilter, setOpenFilter] = useState(false);
@@ -42,15 +43,7 @@ function Quetions() {
             <span className="text-[#747474]"> (12 493)</span>
           </h3>
           <div className="flex gap-[0px] table1005:py-[20px] table1005:px-[20px]">
-            <button className="sort  flex items-center justify-between gap-[10px] bg-white rounded-2xl py-[20px] px-[40px] hover:bg-blue-400 hover:outline-blue-700 hover:fill-white outline-blue-600 mobil640:py-[10px] mobil640:px-[20px]">
-              <span className="">
-                <SortIcon />
-              </span>
-              <p className="text-[#747474] text-[14px] text-nowrap ">
-                {" "}
-                Сортировать по
-              </p>
-            </button>
+            <Sort/>
             <button
               className="sort hidden ml-[10px]  items-center justify-between gap-[10px] bg-white rounded-2xl py-[20px] px-[40px] hover:bg-blue-400 hover:outline-blue-700 hover:fill-white outline-blue-600 table1080:flex  mobil640:py-[10px] mobil640:px-[20px]"
               onClick={() => burgerFilter()}

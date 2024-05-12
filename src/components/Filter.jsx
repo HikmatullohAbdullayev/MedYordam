@@ -9,7 +9,7 @@ function Filter({burgerFilter}) {
         <p className="text-[20px]">
           Фильтрация <br /> по направлениям
         </p>
-        <button className="text-red-600 text-[14px] flex items-center gap-[5px] cursor-pointer" onClick={()=> burgerFilter()}>
+        <button className="text-red-600 text-[14px] flex items-center gap-[5px] cursor-pointer active:outline-blue-500 focus:outline-blue-500 p-[5px]" onClick={()=> burgerFilter()}>
           {" "}
           <span>
             <ClearIcon />
@@ -26,7 +26,7 @@ function Filter({burgerFilter}) {
           placeholder="Поиск направления"
         />
         <label className="p-[20px]" htmlFor="searchCategory">
-          <span>
+          <span className="cursor-pointer">
             <SearchIcon />
           </span>
         </label>
@@ -34,13 +34,13 @@ function Filter({burgerFilter}) {
       <div className="chek grid gap-[24px]">
         {filters.map((item) => (
           <div key={item.id} className="flex justify-between items-center ">
-            <div className="flex  gap-3 cursor-pointer hover:text-[#0129E3]">
-              <input
+            <div className="flex  gap-3  cursor-pointer  hover:text-[#0129E3]">
+              <input className="rounded-2xl outline-blue-500"
                 type="checkbox"
                 name="category"
                 id={`category-${item.id}`}
               />
-              <label htmlFor={`category-${item.id}`}> {item.text}</label>
+              <label className="cursor-pointer" htmlFor={`category-${item.id}`}> {item.text}</label>
             </div>
             <p className="text-[#747474] text-[14px]">{item.number}</p>
           </div>

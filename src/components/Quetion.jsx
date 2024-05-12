@@ -29,7 +29,7 @@ function Quetion({
               <hr />
               <div className="py-[18px]">
                 {quetion}{" "}
-                <span className="underline cursor-pointer text-[#747474]">
+                <span className="underline cursor-pointer text-[#747474] hover:text-blue-500">
                   {" "}
                   Читать полностью
                 </span>
@@ -58,7 +58,7 @@ function Quetion({
               <hr />
               <div className="py-[18px]">
                 {ask}{" "}
-                <span className="underline cursor-pointer text-white">
+                <span className="underline cursor-pointer text-white hover:text-red-500">
                   {" "}
                   Читать полностью
                 </span>
