@@ -30,7 +30,7 @@ function Quetions() {
       </div>
       <div className="w-full relative">
         <div
-          className={`filterMob absolute  ${
+          className={` absolute  ${
             opeFilter ? " block" : "hidden"
           }  z-10`}
         >
@@ -42,7 +42,7 @@ function Quetions() {
             <span className="text-[#747474]"> (12 493)</span>
           </h3>
           <div className="flex gap-[0px] table1005:py-[20px] table1005:px-[20px]">
-            <button className="sort  flex items-center justify-between gap-[10px] bg-white rounded-2xl py-[20px] px-[40px] hover:bg-blue-400 hover:outline-blue-700 hover:fill-white outline-blue-600 ">
+            <button className="sort  flex items-center justify-between gap-[10px] bg-white rounded-2xl py-[20px] px-[40px] hover:bg-blue-400 hover:outline-blue-700 hover:fill-white outline-blue-600 mobil640:py-[10px] mobil640:px-[20px]">
               <span className="">
                 <SortIcon />
               </span>
@@ -52,7 +52,7 @@ function Quetions() {
               </p>
             </button>
             <button
-              className="sort hidden ml-[10px]  items-center justify-between gap-[10px] bg-white rounded-2xl py-[20px] px-[40px] hover:bg-blue-400 hover:outline-blue-700 hover:fill-white outline-blue-600 table1080:flex "
+              className="sort hidden ml-[10px]  items-center justify-between gap-[10px] bg-white rounded-2xl py-[20px] px-[40px] hover:bg-blue-400 hover:outline-blue-700 hover:fill-white outline-blue-600 table1080:flex  mobil640:py-[10px] mobil640:px-[20px]"
               onClick={() => burgerFilter()}
             >
               <span>
