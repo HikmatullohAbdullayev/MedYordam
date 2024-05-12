@@ -16,10 +16,10 @@ function Paggination() {
         <li className="py-[20px] px-[25px] border-transparent bg-white  hover:bg-blue-600  rounded-xl cursor-pointer tablemin845:px-[18px] tablemin845:py-[12px]">
           <span className="text-blue-500 hover:text-white">2</span>
         </li>
-        <li className="py-[20px] px-[25px] border-transparent bg-white  hover:bg-blue-600  rounded-xl cursor-pointer tablemin845:px-[18px] tablemin845:py-[12px]">
+        <li className="py-[20px] px-[25px] border-transparent bg-white  hover:bg-blue-600  rounded-xl cursor-pointer tablemin845:px-[18px] tablemin845:py-[12px] mobil640:hidden">
           <span className="text-blue-500 hover:text-white">3</span>
         </li>
-        <li className="py-[20px] px-[25px] border-transparent bg-white  hover:bg-blue-600  rounded-xl cursor-pointer tablemin845:px-[18px] tablemin845:py-[12px]">
+        <li className="py-[20px] px-[25px] border-transparent bg-white  hover:bg-blue-600  rounded-xl cursor-pointer tablemin845:px-[18px] tablemin845:py-[12px] mobil640:hidden">
           <span className="text-blue-500 hover:text-white">4</span>
         </li>
         <li className="py-[20px] px-[25px] border-transparent bg-white  hover:bg-blue-600  rounded-xl cursor-pointer tablemin845:px-[18px] tablemin845:py-[12px]">

@@ -9,11 +9,16 @@ background-position: center;
 
 background: linear-gradient(135.00deg, rgb(55, 159, 242) 1.533%,rgb(2, 47, 228) 90.795%);
 }
+.title{
+  font-size: 36px;
+}
 
-
-    @media only screen and (max-width: 640px) {
+@media screen and (max-width:640px) {
         .media {
             display: grid;
           grid-template-columns: 1;
+        }
+        .title{
+          font-size: 20px;
         }
       }
