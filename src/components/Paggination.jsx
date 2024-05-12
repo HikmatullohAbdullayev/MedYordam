@@ -25,7 +25,7 @@ function Paggination() {
         <li className="py-[20px] px-[25px] border-transparent bg-white  hover:bg-blue-600  rounded-xl cursor-pointer tablemin845:px-[18px] tablemin845:py-[12px]">
           <span className="text-blue-500 hover:text-white">...</span>
         </li>
-        <li className="py-[20px] px-[20px] border-transparent bg-blue-500 hover:bg-blue-600  rounded-xl tablemin845:px-[12px] tablemin845:py-[12px]">
+        <li className="py-[20px] px-[20px] border-transparent cursor-pointer  bg-blue-500 hover:bg-blue-600  rounded-xl tablemin845:px-[12px] tablemin845:py-[12px]">
           <span className="fill-white ">
             <NextIcon />
           </span>

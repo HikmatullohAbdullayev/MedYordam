@@ -15,7 +15,7 @@ function Hero() {
                 </h1>
             </div>
             <div className="flex justify-evenly items-center gap-[20px] flex-wrap mx-auto mt-[60px] ">
-                <div className="flex justify-evenly items-center gap-3 bg-white py-[30px] px-[60px] rounded-2xl mobile530:px-[30px] mobile530:py-[14px] ">
+                <div className="flex justify-evenly items-center gap-3 hover:shadow-lg  bg-white py-[30px] px-[60px] rounded-2xl mobile530:px-[30px] mobile530:py-[14px] ">
                     <span>
                         <StarIcon/>
                     </span>
@@ -23,7 +23,7 @@ function Hero() {
                     Лучшие консультанты
                     </p>
                 </div>
-                <div className="flex justify-evenly items-center gap-3 bg-white py-[30px] px-[60px] rounded-2xl mobile530:px-[30px] mobile530:py-[14px] ">
+                <div className="flex justify-evenly items-center gap-3 hover:shadow-2xl  bg-white py-[30px] px-[60px] rounded-2xl mobile530:px-[30px] mobile530:py-[14px] ">
                     <span>
                         <QuestionIcon/>
                     </span>
@@ -31,7 +31,7 @@ function Hero() {
                     Задать вопрос
                     </p>
                 </div>
-                <div className="flex justify-evenly items-center gap-3 bg-white py-[30px] px-[60px] rounded-2xl mobile530:px-[30px] mobile530:py-[14px] " >
+                <div className="flex justify-evenly items-center gap-3 hover:shadow-lg  bg-white py-[30px] px-[60px] rounded-2xl mobile530:px-[30px] mobile530:py-[14px] " >
                     <span>
                         <FilesIcon/>
                     </span>
@@ -43,7 +43,7 @@ function Hero() {
             <div className=" media gap-6 grid grid-cols-4 mt-[28px] px-[30px] table1170:grid-cols-2  mobil675:block ">
                 {
                     hero.map((item) =>(
-                       <div key={item.id} className=" text-start py-[26px] px-[24px] rounded-2xl border border-solid border-white mobil675:my-[20px]  mobile530:px-[30px] mobile530:py-[14px] ">
+                       <div key={item.id} className=" text-start py-[26px] px-[24px] rounded-2xl border border-solid  border-white hover:shadow-lg mobil675:my-[20px]  mobile530:px-[30px] mobile530:py-[14px] ">
                          <p className="font-medium text-[50px] text-white mobile530:text-[34px]">{item.number}</p>
                         <p className=" text-[16px] text-white " >{item.text}</p>
                        </div>
